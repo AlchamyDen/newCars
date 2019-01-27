@@ -3,7 +3,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link :to="{ path: '/', name: 'homepage-component' }" class="navbar-item">
-          <h1 class="is-3 is-flex-mobile"><img class="carapin" src="C:\Users\User\Desktop\Cars\samplevuestore\public\assets\logotip.png\" alt="Logo"></h1>
+          <h1 class="is-3 is-flex-mobile">НАШ САЙТ</h1>
         </router-link>
 
         <a role="button" class="navbar-burger burger" @click="isMenuOpen = !isMenuOpen" aria-label="menu" aria-expanded="false">
