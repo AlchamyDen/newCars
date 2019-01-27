@@ -6,7 +6,7 @@
            Carapin.net
           </h1>
           <h2 class="subtitle">
-            Score
+            Shop
           </h2>
         </div>
       </div>
