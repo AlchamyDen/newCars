@@ -90,8 +90,5 @@
   a {
     color: grey;
   }
-  .carapin{
-    width: 120px;
-    height: 50px;
-  }
+  
 </style>
