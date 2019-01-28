@@ -5,6 +5,7 @@
   "author": "",
   "private": true,
   "scripts": {
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "dev": "vue-cli-service serve",
     "production": "vue-cli-service build",
     "development": "vue-cli-service build --mode development",
@@ -40,8 +41,10 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.5.21"
   },
+  "homepage": "git@github.com:AlchamyDen/newCars.git",
   "eslintConfig": {
     "root": true,
     "env": {
