@@ -3,7 +3,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link :to="{ path: '/', name: 'homepage-component' }" class="navbar-item">
-          <h1 class="is-3 is-flex-mobile">НАШ САЙТ</h1>
+          <h1 class="title is-3 is-flex-mobile"></h1>
         </router-link>
 
         <a role="button" class="navbar-burger burger" @click="isMenuOpen = !isMenuOpen" aria-label="menu" aria-expanded="false">
@@ -80,10 +80,12 @@
 <style lang="scss" scoped>
   .title {
     background-position: 50% 50%;
-    background-size: 165px;
+    background-size: 50px;
     width: 175px;
     height: 35px;
+    background: url('../../../public/assets/logotip.png') no-repeat;
   }
+  
   .shopping-cart {
     cursor: pointer;
   }
